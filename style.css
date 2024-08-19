@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background: rgb(0, 67, 212);
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 3%;
+}
+
+header {
+    border-bottom: solid 2px rgb(233, 15, 15);
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(233, 15, 15);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+.chamada {
+    background: rgb(7, 191, 223);
+    padding-bottom: 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 5%;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+img {
+    height: 250px;
+}
+
+.categoria {
+    font-size: 40px;
+    margin-left: 3%;
+}
+
+.categoria img{
+    opacity: 0.5;
+}
+
+.categoria img:hover{
+    opacity: 1.0;
+    border: 5px solid rgb(255, 0, 200);
+}
+
+.categoria h2 {
+    color: rgb(233, 15, 15);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.recomendacoes {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
